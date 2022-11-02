@@ -19,5 +19,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
+      - run: ENV_2=3
       - run: echo $SERVER_DOMAIN
+      - run: echo $ENV_2
       - run: node index.js
