@@ -20,3 +20,4 @@ jobs:
         with:
           node-version: '14'
       - run: echo $SERVER_DOMAIN
+      - run: node index.js
